@@ -15,7 +15,6 @@ function App() {
 
   return (
     <Router>
-      <script> if (!crossOriginIsolated) SharedArrayBuffer = ArrayBuffer </script>
       <div>
          <div className={`outer-container p-4 bg-gray-800 text-white flex justify-between items-center transition-max-height duration-1000 ${navVisible ? 'max-h-40' : 'max-h-0'}`}>
           <h1 className="text-lg font-bold duration-200 hover:scale-110">Brandon Woodward</h1>
@@ -48,10 +47,6 @@ function App() {
           </button>
         </div>
   
-        
-       
-      
-        
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
