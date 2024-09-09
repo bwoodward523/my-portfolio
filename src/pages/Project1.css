@@ -1,0 +1,7 @@
+.robotbg {
+    background-image: url('../images/RobotBackground.jpg');
+    background-size: contain;
+    background-position: left;
+    background-repeat: repeat;
+    height: 50px;
+  }
