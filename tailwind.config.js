@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'computer-pattern': "url('/src/images/computerbg.jpg')"
+      }
+    },
   },
   variants: {
     extend: {
