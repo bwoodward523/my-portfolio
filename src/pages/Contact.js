@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../images/dopefit.jpg"
 
-function Home(){
+function Contact(){
     return(  
     <div className="bg-computer-pattern bg-no-repeat  bg-cover to-indigo-500 ">
       <img className="rounded-full pt-10 block ml-auto mr-auto w-64 h-128" src={img1} alt="Brandon Woodward"></img>
@@ -23,4 +23,4 @@ function Home(){
     </div>
     );
 }
-export default Home;
+export default Contact;

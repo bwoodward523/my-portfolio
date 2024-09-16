@@ -4,7 +4,8 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Project1 from './pages/Project1';
 import WorkExperience from './pages/Work';
-import Project3 from './pages/Project3';
+//import Project3 from './pages/Project3';
+import Contact from './pages/Contact';
 
 function App() {
  
@@ -26,7 +27,7 @@ function App() {
               <Link to="/work" className="transition duration-300 hover:text-blue-600">Work Experience</Link>
             </li>
             <li className="transition-transform duration-300 transform hover:scale-150">
-              <Link to="/" className="transition duration-300 hover:text-blue-600">Contact</Link>
+              <Link to="/contact" className="transition duration-300 hover:text-blue-600">Contact</Link>
             </li>
            
             
@@ -41,7 +42,7 @@ function App() {
             <Route path="/robotgame" element={<Project1 />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/work" element={<WorkExperience />} />
-            <Route path="/project3" element={<Project3 />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
       </div>
