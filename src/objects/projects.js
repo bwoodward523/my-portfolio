@@ -35,8 +35,8 @@ const projects = [
       itchio: "https://itch.io/jam/scorejam30/rate/2792114",
       placement: "Out of 129 entries, we ranked #31 in gameplay",
       description: "A brief description of Project Three.",
-      goal: "This was a spontaneous project that began within 6 hours of the submission time. Initially it was not intended to be a game jam submission. With less time than other competitors and an incomplete project we decided to submit it to see what we accomplished.",
-      role: "",
+      goal: "This was a spontaneous project that began within 6 hours of the submission time. Initially it was not intended to be a game jam submission. With less time than other competitors and an incomplete project we decided to submit it to see what we accomplished. Afterwards we continued to develop the game as we were impressed with our submission results",
+      role: "In this game I created the character controller and all of its visual aspects. Once the level creation system was implemented, I utilized it to create some levels for the game!",
       image: slimecover,
       link: '/slimegame'
     },

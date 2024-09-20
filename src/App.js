@@ -2,12 +2,11 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import Project1 from './pages/project1';
+import Project1 from './pages/Project1';
 import Project2 from './pages/Project2';
 import Project3 from './pages/Project3';
 import WorkExperience from './pages/work';
 //import Project3 from './pages/Project3';
-import Contact from './pages/Contact';
 
 function App() {
  
@@ -43,7 +42,6 @@ function App() {
             <Route path="/slimegame" element={<Project3 />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/work" element={<WorkExperience />} />
-            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
       </div>
