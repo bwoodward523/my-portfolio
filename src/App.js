@@ -2,8 +2,10 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import Project1 from './pages/Project1';
-import WorkExperience from './pages/Work';
+import Project1 from './pages/project1';
+import Project2 from './pages/Project2';
+import Project3 from './pages/Project3';
+import WorkExperience from './pages/work';
 //import Project3 from './pages/Project3';
 import Contact from './pages/Contact';
 
@@ -26,9 +28,6 @@ function App() {
             <li className="transition-transform duration-300 transform hover:scale-150">
               <Link to="/work" className="transition duration-300 hover:text-blue-600">Work Experience</Link>
             </li>
-            <li className="transition-transform duration-300 transform hover:scale-150">
-              <Link to="/contact" className="transition duration-300 hover:text-blue-600">Contact</Link>
-            </li>
            
             
             
@@ -40,6 +39,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/robotgame" element={<Project1 />} />
+            <Route path="/peacetothemeadow" element={<Project2 />} />
+            <Route path="/slimegame" element={<Project3 />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/work" element={<WorkExperience />} />
             <Route path="/contact" element={<Contact />} />
