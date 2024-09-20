@@ -6,6 +6,7 @@ import Project1 from './pages/Project1';
 import Project2 from './pages/Project2';
 import Project3 from './pages/Project3';
 import WorkExperience from './pages/Work';
+import Project4 from './pages/Project4';
 //import Project3 from './pages/Project3';
 
 function App() {
@@ -40,6 +41,8 @@ function App() {
             <Route path="/robotgame" element={<Project1 />} />
             <Route path="/peacetothemeadow" element={<Project2 />} />
             <Route path="/slimegame" element={<Project3 />} />
+            <Route path="/sporo" element={<Project4 />} />
+
             <Route path="/projects" element={<Projects />} />
             <Route path="/work" element={<WorkExperience />} />
           </Routes>

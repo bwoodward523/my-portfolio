@@ -8,7 +8,7 @@ function Project1() {
         <div>
             <div className="robotbg min-h-screen bg-gray-100 flex flex-col items-center justify-start p-10">
                 <h1 className="text-4xl font-bold text-blue-600">{projects[0].title}</h1>
-                <p className="mt-4 text-gray-400" >{projects[0].description}</p>
+                <p className="text-center mt-4 text-gray-400" >{projects[0].description}</p>
                 <iframe title="robot" frameborder="0" src={`${process.env.PUBLIC_URL}/robotgame/index.html`} allowfullscreen="" width="960" height="660" >
             
                 </iframe>

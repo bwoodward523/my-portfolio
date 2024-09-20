@@ -34,7 +34,7 @@ const projects = [
       title: "Slime Wants Treasure",
       itchio: "https://itch.io/jam/scorejam30/rate/2792114",
       placement: "Out of 129 entries, we ranked #31 in gameplay",
-      description: "A brief description of Project Three.",
+      description: "Play as an adventurous little slime who just wants to collect some treasure! Compete to see how fast you can get the treasure and get out!",
       goal: "This was a spontaneous project that began within 6 hours of the submission time. Initially it was not intended to be a game jam submission. With less time than other competitors and an incomplete project we decided to submit it to see what we accomplished. Afterwards we continued to develop the game as we were impressed with our submission results",
       role: "In this game I created the character controller and all of its visual aspects. Once the level creation system was implemented, I utilized it to create some levels for the game!",
       image: slimecover,
@@ -42,8 +42,13 @@ const projects = [
     },
     {
       id: 4,
+      submissiondate: "Submitted on May 17th, 2024 to Bullet Hell Jam 5",
+      placement: "Out of 366 entries, we ranked #50 in fun and #52 overall!",
       title: "Sporo",
-      description: "",
+      itchio: "https://itch.io/jam/bullet-hell-v/rate/2719776?",
+      goal: "This was my first ever game jam! Emmet Larson, Sporo's codeveloper, and I had finally committed to participating in a game jam! Our only goal was to create something fun and interesting in the two week time limit",
+      role: "In this game I developed the character movement, combat, weapon system, enemy AI, and boss fight! There were lots of things that could have been done better and this was a fantastic learning experience. It really helped out my development skills in the next jams I would participate in",
+      description: "The once peaceful Sporest is under siege by a mysterious dark force that has corrupted its inhabitants. You play as Sporo, a brave and sentient mushroom . Your mission is to fight through the corrupted creatures, defeat the dark wraith, and restore peace to the Sporest.",
       image: sporocover,
       link: '/sporo'
     }

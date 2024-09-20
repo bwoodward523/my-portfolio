@@ -8,7 +8,7 @@ function Project2() {
         <div>
             <div className="bg-green-800 min-h-screen flex flex-col items-center justify-start p-10">
                 <h1 className="text-4xl font-bold text-white">{projects[1].title}</h1>
-                <p className="mt-4 text-gray-400" >{projects[1].description}</p>
+                <p className="text-center mt-4 text-gray-400" >{projects[1].description}</p>
                 <iframe title="robot" frameborder="0" src={`${process.env.PUBLIC_URL}/peacetothemeadow/index.html`} allowfullscreen="" width="960" height="660" >
             
                 </iframe>
