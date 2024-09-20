@@ -5,7 +5,7 @@ import '../pages/Project1.css'
 function Project4() {
     return(
         <div>
-            <div className="bg-[#ad2f45] min-h-screen bg-gray-100 flex flex-col items-center justify-start p-10">
+            <div className="bg-[#ad2f45] min-h-screen flex flex-col items-center justify-start p-10">
                 <h1 className="text-4xl font-bold text-white">{projects[3].title}</h1>
                 <p className="text-center mt-4 text-gray-400" >{projects[3].description}</p>
                 <iframe title="sporo" frameborder="0" src={`${process.env.PUBLIC_URL}/sporo/index.html`} allowfullscreen="" width="960" height="660" >
