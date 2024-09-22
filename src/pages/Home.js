@@ -22,8 +22,8 @@ function Home(){
      
 
 
-      <div className="bg-gray-900 p-20 text-5xl font-bold flex justify-start text-white px-52">
-        Dedicated Junior York College of Pennsylvania student focused on improving and developing skills Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+      <div className="bg-gray-900 p-20 text-5xl font-bold flex justify-start text-white px-52 text-center">
+        Dedicated Junior York College of Pennsylvania student focused on improving and developing skills, building connections with others, and creating interesting software projects. 
       </div>
       
       <div className="bg-gray-400 p-20 font-bold text-white">
@@ -33,7 +33,12 @@ function Home(){
           <a href={resume} className="bg-blue-500 hover:bg-blue-900 duration-200 px-16 py-4 transform hover:scale-105">Resume</a>
           <a href="https://ycp.joinhandshake.com/profiles/50329402" className="bg-blue-500 hover:bg-blue-900 duration-200 px-16 py-4 transform hover:scale-105">Handshake</a>
         </div>
-        
+        <div className="bg-gray-400 text-white pt-20">
+          <ul >
+            <li className="text-center text-2xl pb-4">443-862-7644 </li>
+            <li className="text-center text-2xl pb-10 "><a className="transition hover:text-blue-600 duration-400"href= "mailto: bwoodward@ycp.edu">bwoodward@ycp.edu</a></li>
+          </ul>  
+        </div>
 
       </div>
     </div>
