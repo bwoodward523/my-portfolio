@@ -30,7 +30,14 @@ function Work(){
         <br></br><br></br>Due to my willingness to receive mentorship from coworkers and mentors, I was able to quickly develop and refine my abilities. 
         <br></br><br></br>As a team of interns, we piggybacked off eachother and developed into a powerful force of development.
       </div>
-     
+      <div className="bg-gray-400 text-white">
+      <p className="text-center pt-20 text-5xl font-bold pb-8">Other Work Experience</p>
+      <ul >
+        <li className="text-center text-2xl pb-4">&bull; Lifeguard at DRD Pools for three summers: 2019, 2020, and 2021 </li>
+        <li className="text-center text-2xl pb-10">&bull; Leadership Training Counselor at Beth Tfiloh Camps in 2018</li>
+      </ul>  
+      </div>
+      
     </div>
     );
 }
