@@ -17,14 +17,14 @@ function Home(){
         <ProjectSummary
         key={project.id}
         title={project.title}
-        description={project.description}
+        description={project.smalldesc}
         image={project.image}
         link={project.link}
         submissiondate={project.date}
         />
       ))}
       <div className="flex flex-row">
-      <h2 className="pt-16 text-3xl font-bold  text-gray-500">Godot Game Jams</h2>
+      <h2 className="pt-16 text-3xl font-bold  text-gray-500">Godot Game Jams <p className="text-xl font-normal">Reference Itch.io pages to see credited developers</p></h2>
       <img className="ml-auto" src = {GodotIcon} alt = "Godot icon" width="100px"></img>
       </div>
      
@@ -32,7 +32,7 @@ function Home(){
         <ProjectSummary
           key={project.id}
           title={project.title}
-          description={project.description}
+          description={project.smalldesc}
           image={project.image}
           link={project.link}
           submissiondate={project.submissiondate}
