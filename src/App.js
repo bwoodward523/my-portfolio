@@ -16,11 +16,12 @@ function App() {
 
   return (
     <Router>
+     
       <div>
-         <div className={`outer-container p-4 bg-gray-800 text-white flex justify-between items-center transition-max-height duration-1000`}>
+         <div className={`p-4 w-screen bg-gray-800 text-white flex flex-grow justify-between items-center transition-max-height duration-1000`}>
          
-          <nav className={`bg-gray-800 text-white p-4 transition duration-500 flex-grow `}>
-          <ul className="flex justify-center space-x-32">
+          <nav className={`w-screen bg-gray-800 text-white p-4 transition duration-500 flex-grow `}>
+          <ul className="flex justify-center space-x-10 md:space-x-16 lg:space-x-32">
             <li className="transition-transform duration-300 transform hover:scale-150">
               <NavLink to="/" className={({ isActive }) => 
                     `transition duration-300 hover:text-blue-600 ${isActive ? 'text-blue-600 underline' : ''}`}>About</NavLink>
