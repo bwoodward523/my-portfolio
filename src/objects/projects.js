@@ -7,14 +7,14 @@ const projects = [
     {
       submissiondate: "Submitted on August 18th to GMTK Game Jam 2024",
       id: 1,
-      placement: "Out of 7,615 Entries, we ranked #1557 in enjoyment and #1737 overall!",
+      placement: "Out of 7,615 entries, we ranked #1557 in enjoyment and #1737 overall!",
       title: "The Robot Who Baked The World",
       itchio: "https://itch.io/jam/gmtk-2024/rate/2910946",
       smalldesc: "In this project I took more of a backseat role and focused on uplifting my teammates by picking up loose ends and making a few of the minigames.",
       description: "A lonely robot, born to bake. An infinite quest for the ultimate cake. Only destruction in its wake...",
       image: robotimg, 
       link: '/robotgame',
-      goal: "The goal of this game was to create a successful submission to GMTK Jam 2024! As a team we wanted to prove that with greater competition, our skills were just as potent",
+      goal: "The goal of this game was to create a successful submission to GMTK Jam 2024! As a team we wanted to prove that with greater competition, our skills were just as potent!",
       role: "In this project I focused on supporting my teammates and picking up as many loose ends as I could. I was just wrapping a long sprint of the end of the Firaxis internship combined with the end of two week game jam!"
     },
     {
@@ -47,7 +47,7 @@ const projects = [
       id: 4,
       submissiondate: "Submitted on May 17th, 2024 to Bullet Hell Jam 5",
       placement: "Out of 366 entries, we ranked #50 in fun and #52 overall!",
-      smalldesc: "In Sporo, I developed the player movement and shooting. I also developed the AI for the enemies and the boss. I also developed a dynamic, customizable gun base object allowing us to integrate tons of weapons into our game",
+      smalldesc: "In Sporo, I developed the player movement and shooting. I also developed the AI for the enemies and the boss. I also developed a dynamic, customizable gun base object allowing us to integrate tons of weapons into our game.",
       title: "Sporo",
       itchio: "https://itch.io/jam/bullet-hell-v/rate/2719776?",
       goal: "This was my first ever game jam! Emmet Larson, Sporo's codeveloper, and I had finally committed to participating in a game jam! Our only goal was to create something fun and interesting in the two week time limit",
