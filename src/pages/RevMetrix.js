@@ -11,7 +11,7 @@ function RevMetrix() {
             <div className="bg-gray-100 h-auto flex flex-col items-center justify-start p-7 sm:p10">
                 <h1 className="text-4xl font-bold text-black">{projects[1].title}</h1>
                 <p className="text-center mt-4 text-xl text-gray-800 pb-8" >This project was created as an assignment for the software engineering course at my York College of Pennsylvania. It was really interesting because we had to use Java Servlets and jsp webpages. I really enjoyed working on this project with a team of three other computer science studes (Emmet Larson, Zach Cox, and Emily Culp) In the video below I showcase what the project and specify the parts that I developed!</p>
-                <iframe  allowFullScreen title="revmetrix" className="w-auto sm:w-3/5 sm:h-80" src="https://www.youtube.com/embed/H8Hx7r2bFRE"></iframe>
+                <iframe  allowFullScreen title="revmetrix" className="w-auto sm:w-3/5 sm:h-80" src="https://www.youtube.com/embed/H8Hx7r2bFRE&origin=http://brandonwoodwarddev.netlify.app/r"></iframe>
                 
             </div>
           
