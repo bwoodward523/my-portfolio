@@ -4,10 +4,6 @@
 
 
 /revmetrix
-  Cross-Origin-Opener-Policy:
-  Cross-Origin-Embedder-Policy:
-
-/pages/RevMetrix.js
-  Cross-Origin-Opener-Policy:
-  Cross-Origin-Embedder-Policy:
+  Cross-Origin-Opener-Policy: unsafe-none
+  Cross-Origin-Embedder-Policy: unsafe-none
 
