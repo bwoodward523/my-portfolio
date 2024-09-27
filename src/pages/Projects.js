@@ -8,7 +8,7 @@ import YCPIcon from '../images/ycpicon.png'
 function Home(){
     return( 
       <div className="bg-gray-100">
-      <div className="mx-52 p-8 bg-gray-100">
+      <div className="md:mx-26 lg:mx-52 p-8 bg-gray-100">
       <div className="flex flex-row">
       <h2 className="pt-16 text-3xl font-bold  text-gray-500">YCP Projects</h2>
       <img className="ml-auto" src = {YCPIcon} alt="York College of Pennsylvania" width="112px"></img>
@@ -25,7 +25,7 @@ function Home(){
       ))}
       <div className="flex flex-row">
       <h2 className="pt-16 text-3xl font-bold  text-gray-500">Godot Game Jams <p className="text-xl font-normal">Reference Itch.io pages to see credited developers</p></h2>
-      <img className="ml-auto" src = {GodotIcon} alt = "Godot icon" width="100px"></img>
+      <img className="ml-auto w-[100px] h-[100px] " src = {GodotIcon} alt = "Godot icon"></img>
       </div>
      
       {projects.map(project => (
