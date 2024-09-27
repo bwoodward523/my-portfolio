@@ -3,6 +3,10 @@
   Cross-Origin-Embedder-Policy: require-corp
 
 
+/revmetrix
+  Cross-Origin-Opener-Policy:
+  Cross-Origin-Embedder-Policy:
+
 /pages/RevMetrix.js
   Cross-Origin-Opener-Policy:
   Cross-Origin-Embedder-Policy:
