@@ -20,11 +20,12 @@ function Home(){
       </div>
       
       <div className="bg-gray-400 pt-10 sm:pt-20 p-20 sm:p-20 font-bold text-white">
-        <h1 className="text-center text-5xl">Get In Touch</h1><br></br>
+        <h1 className="text-center text-5xl">Get in Touch</h1><br></br>
         <div className="flex sm:py-3 flex-col space-y-4 md:space-y-0 lg:space-y-0 md:flex-row lg:flex-row justify-between md:justify-center md:space-x-5  lg:space-x-20 lg:justify-center text-white  text-3xl ">
           <a href="https://github.com/bwoodward523" className="bg-blue-500 hover:bg-blue-900 duration-200 text-center p-8 transform hover:scale-105 sm:w-64">GitHub</a>
           <a href={resume} className="bg-blue-500 hover:bg-blue-900  duration-200 text-center p-8 transform hover:scale-105 sm:w-64">Resume</a>
-          <a href="https://ycp.joinhandshake.com/profiles/50329402" className="bg-blue-500 hover:bg-blue-900 duration-200 text-center p-8 transform hover:scale-105 sm:w-64">Handshake</a>
+          <a href="https://ycp.joinhandshake.com/profiles/50329402" className="bg-blue-500 hover:bg-blue-900 duration-200 text-center p-8 transform hover:scale-105 sm:w-64">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/brandon-woodward-9a6468264/" className="bg-blue-500 hover:bg-blue-900 duration-200 text-center p-8 transform hover:scale-105 sm:w-64">Handshake</a>
         </div>
         <div className="flex flex-col flex-grow justify-center bg-gray-400 text-white pt-10">
           <ul >
