@@ -11,7 +11,7 @@ function Home(){
       <img className=" pt-10 block ml-auto mr-auto w-64 h-128" src={img1} alt="Brandon Woodward"></img>
         <div className="">
           <h1 className="relative text-center pt-20 text-5xl font-bold mb-6">Brandon Woodward</h1>
-          <h2 className="relative text-center pb-20 text-4xl font-bold">Software Engineer & Computer Scientist</h2>
+          <h2 className="relative text-center pb-20 text-4xl font-bold">Software Engineer</h2>
         </div>
       </div>
     
