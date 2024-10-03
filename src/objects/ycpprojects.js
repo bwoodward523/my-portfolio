@@ -12,9 +12,9 @@ const projects = [
       image: kratz, 
       smalldesc: "I took on this project to learn Unreal Engine 5 in order to prepare for my Firaxis Games internship. I also learned character modeling, rigging, and animating in Blender and adjusted to Unreal Engine's Blueprint coding system.",
       link: '/kratz',
-      notes: "Almost all the assets in this game were made by me except for the sewer textures. I 3D modeled, textured, rigged, and animated the rat for gameplay and created this project individually.",
-      goal: "The goal of Kratz was to learn the ropes of Unreal Engine 5 to prepare for my internship with Firaxis. I also really wanted to get back into creating games. In just two months, I went from never using Unreal Engine 5 before to creating an interesting endless runner game!",
-      role: "In my software engineering class, I was tasked to create an individual project about anything I wanted to, so I chose to learn Unreal Engine 5 by making a game in it!"
+      notes: "I 3D modeled, textured, rigged, and animated the rat for gameplay. I also created the music and sound effects. I used default textures from UE5 for the sewer.",
+      goal: "Developing Kratz gave me the opportunity to explore the fundamentals and tools of Unreal Engine 5. With no prior experience, I delved into systems like the Niagara water system and found myself fully immersed in the development process. This project also provided invaluable preparation for my summer internship with Firaxis, allowing me to familiarize myself with the engine.",
+      role: "As part of a sophomore software engineering class, I was tasked with creating an individual project of my choosing, which I used as an opportunity to develop my first Unreal Engine 5 project."
     },
     {
       id: 2,
@@ -24,8 +24,8 @@ const projects = [
       description: "A staff of bowlers thirsty for statistics, a website created to portray their wishes.",
       image: revIcon,
       link: "/revmetrix",
-      goal: "With this project, I wanted to prove to myself that my coding abilities were not specific to game development, so I set out to prove that I could work with a team and achieve excellence.",
-      role: "My role in this project was to develop the bowling ball arsenal and the game logic. This later developed into implementing the scoring page after another developer was unable to complete the task."
+      goal: "In addition to collaborating with a team under tight time constraints, one of the most significant benefits I gained from this project was increased familiarity and success with coding beyond game development.",
+      role: "My primary role in this project was to develop the bowling ball arsenal, as well as the game and scoring system. However, to ensure all aspects of the assignment were completed on time, I took on additional responsibilities, stepping in to implement the scoring page and support another aspiring developer."
     },
     {
       id: 3,

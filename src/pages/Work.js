@@ -14,10 +14,12 @@ function Work() {
 
             <div className="bg-gray-400 p-8 md:p-24 lg:p-32 text-xl md:text-3xl lg:text-5xl font-bold text-white justify-items-center flex flex-col md:flex-none lg:flex-none items-center">
                 <p className="">
-                    Spearheaded the creation of a multiplayer party game using Unreal Engine 5 and C++, serving as the lead engineer by developing the networking and game framework.
+                I took the lead in a title called Callisto, it is a multiplayer party game using Unreal Engine 5 and C++. I was responsible for developing the networking and game framework. Meaning I created the game loop, the basic multiplayer functionalities, most of the UI, the basic environment and some fun mechanics. 
                     <br className="mb-6" />
                     <br />
-                    Adapted to an existing codebase, implementing new features for an ongoing project.
+
+Throughout this process, I honed my teamwork skills by collaborating closely with interns, mentors, and employees from various specializations.
+
                 </p>
                 <img className="pt-8 inline-block rounded ml-auto mr-auto w-auto lg:w-3/4 h-auto" src={img2} alt="Brandon Woodward" />
                 <br />
@@ -25,12 +27,12 @@ function Work() {
 
             <div className="p-8 md:p-24 lg:p-32 text-xl md:text-3xl lg:text-5xl font-bold bg-gray-900 text-white flex flex-col items-center">
                 <p className=""></p>
-                Here, I developed my teamwork skills by consistently collaborating with interns, mentors, and employees across various specializations. 
+                My eagerness to learn from my coworkers allowed me to quickly refine my abilities. 
                 <br /><br />
-                My eagerness to receive mentorship from coworkers allowed me to quickly develop and refine my abilities. 
+                Working alongside my fellow interns, we supported each other and proved a formidable development team.
                 <br /><br />
-                As a team of interns, we supported each other and evolved into a powerful development force.
-                <img className="rounded relative inline-block mr-auto w-auto h-auto" src={img1} alt="Brandon Woodward" />
+                In addition to the aforementioned, I adapted to an existing codebase, and I implemented new features for an ongoing project.
+                <img className="rounded pt-6 relative inline-block mr-auto w-auto h-auto" src={img1} alt="Brandon Woodward" />
             </div>
 
             <div className="bg-gray-400 text-white">

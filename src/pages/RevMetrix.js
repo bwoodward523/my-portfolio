@@ -10,11 +10,11 @@ function RevMetrix() {
         <div>
             <div className="bg-gray-100 h-auto flex flex-col items-center justify-start p-7 sm:p10">
                 <h1 className="text-4xl font-bold text-black">{projects[1].title}</h1>
-                <p className="text-center mt-4 text-xl text-gray-800 pb-8" >    This project was created as an assignment for the Software Engineering course at York College of Pennsylvania. We were tasked with using Java Servlets and JSP webpages. I thoroughly enjoyed collaborating on this project with a team of three other computer science students: Emmet Larson, Zach Cox, and Emily Culp. In the video below, I showcase the project and specify the parts that I developed!
+                <p className="text-center mt-4 text-xl text-gray-800 pb-8" >    This project was created as an assignment for the Software Engineering course at York College of Pennsylvania. We were tasked with using Java Servlets and JSP webpages. <br></br><br></br> I thoroughly enjoyed collaborating on this project with a team of three other computer science students: Emmet Larson, Zach Cox, and Emily Culp. In the video below, I showcase the project and specify the parts that I developed!
                 </p>
                 <a href="https://www.youtube.com/watch?v=QwLmXYgslMw" target="_blank" rel="noopener noreferrer" class="text-center inline-block px-6 pb-3 py-3 mt-4 text-lg font-bold text-white bg-red-600 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:bg-red-700">
   See a tour of the project on YouTube!
-  <img src="https://i9.ytimg.com/vi_webp/dP7WsM_Qmzk/mq1.webp?sqp=CPze4bcG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gPyg6MA8=&rs=AOn4CLCOhaaCN0DB0Y7fHnUYJLYvafflTA" alt="RevMetrix Video Thumbnail" class="w-full"  />
+  <img src="https://i9.ytimg.com/vi_webp/QwLmXYgslMw/mq1.webp?sqp=CNS697cG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgRig5MA8=&rs=AOn4CLA3nkhmxr3yqN_j3QH3DFD97HtcnQ" alt="RevMetrix Video Thumbnail" class="w-full"  />
 </a>
 
             </div>

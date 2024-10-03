@@ -10,25 +10,25 @@ const projects = [
       placement: "Out of 7,615 entries, we ranked #1557 in enjoyment and #1737 overall!",
       title: "The Robot Who Baked The World",
       itchio: "https://itch.io/jam/gmtk-2024/rate/2910946",
-      smalldesc: "In this project I took more of a backseat role and focused on uplifting my teammates by picking up loose ends and making a few of the minigames.",
+      smalldesc: "Right after a massive double project two-week sprint I jumped right into this project but I decided to take more of a backseat role and focused on uplifting my teammates by picking up loose ends and making a few of the minigames.",
       description: "A lonely robot, born to bake. An infinite quest for the ultimate cake. Only destruction in its wake...",
       image: robotimg, 
       link: '/robotgame',
       goal: "The goal of this game was to create a successful submission to GMTK Jam 2024! As a team we wanted to prove that with greater competition, our skills were just as potent!",
-      role: "In this project I focused on supporting my teammates and picking up as many loose ends as I could. I was just wrapping a long sprint at the end of the Firaxis internship combined with the end of a two-week game jam!"
+      role: "Wrapping up a long sprint at the end of the Firaxis internship combined with the end of a two-week game jam; I decided that in this project I would focus on supporting my teammates and picking up as many loose ends as I could."
     },
     {
       submissiondate: "Submitted on August 12th to LOWREZJAM 2024",
       id: 2,
       title: "Peace to the Meadow",
-      smalldesc: "In this game I created the AI for the animals, these creatures had to interact with all the systems in the game that were being developed by my teammates. It took a lot of coordination and communication to integrate all the moving parts we were working on.",
+      smalldesc: "In this game I created the AI for the animals and these creatures had to interact with all the systems in the game that were being developed by my teammates. It took a lot of coordination and communication to integrate all the moving parts we were working on.",
       itchio: "https://itch.io/jam/lowrezjam-2024/rate/2893959",
       placement: "Out of 258 entries, we ranked #16 in audio and #58 overall!",
       description: "You have awoken into a world of greenery. Where animals and plants are meant to flourish. But disaster has struck...",
       image: ptmcover,
       link: '/peacetothemeadow',
-      goal: "This game jam restricted developers to a 64x64 pixel resolution! Working in a team of 6 developers, we banded together to create a strategy game in just two weeks!",
-      role: "In this game I developed the animals and all of their behaviors. In order to do so, I collaborated with the other engineers to connect the animals to the other mechanics in the game; for example, eating plants and attacking spirits."
+      goal: "This game jam challenged developers to work within a 64x64 pixel resolution! In a team of six, including three software engineers, we banded together to create a strategy game in just two weeks!",
+      role: "In this game, I developed the animals and their behaviors. To achieve this, I collaborated with other engineers to integrate the animals with the game's mechanics, such as eating plants and attacking spirits."
     },
     {
       submissiondate: "Submitted on July 23rd, 2024 to ScoreSpace Jam #30",
@@ -38,8 +38,8 @@ const projects = [
       smalldesc: "In this project I created my own state machine within the Godot engine in order to create flexible animations for the character movement controller.",
       placement: "Out of 129 entries, we ranked #31 in gameplay",
       description: "Play as an adventurous little slime who just wants to collect some treasure! Compete to see how fast you can get the treasure and get out!",
-      goal: "This was a spontaneous project that began within 6 hours of the submission time. Initially it was not intended to be a game jam submission. With less time than other competitors and an incomplete project, we decided to submit it to see what we accomplished. Afterwards we continued to develop the game as we were impressed with our submission results.",
-      role: "In this game I created the character controller and all of its visual aspects. Once the level creation system was implemented, I utilized it to create some levels for the game!",
+      goal: "This was a spontaneous project that began within 6 hours of the submission time. Initially it was not intended to be a game jam submission. With less time than other competitors and an incomplete project, we decided to submit it to see what we accomplished. We received incredible results for such little time that we were inspired to continue to develop the game.",
+      role: "In this game I created the character controller and all of its visual aspects utilizing a custom state machine. Once the level creation system was implemented, I utilized it to create some levels for the game!",
       image: slimecover,
       link: '/slimegame'
     },
