@@ -10,7 +10,6 @@ import RevMetrix from './pages/RevMetrix';
 import House from './pages/House';
 import Kratz from './pages/Kratz';
 import Project4 from './pages/Project4';
-import RiotGamesCoverLetter from './pages/RiotGamesCoverLetter';
 //import Project3 from './pages/Project3';
 
 function App() {
@@ -54,7 +53,6 @@ function App() {
             <Route path="/house" element = {<House/>}/>
             <Route path="/work" element={<WorkExperience />} />
             <Route path="/revmetrix" element={<RevMetrix />} />
-            <Route path="/riotgamescoverletter" element={<RiotGamesCoverLetter />} />
 
           </Routes>
         </main>
