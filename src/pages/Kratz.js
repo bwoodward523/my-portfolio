@@ -1,7 +1,7 @@
 import React from "react";
 import projects from '../objects/ycpprojects';
 import '../pages/Project1.css'
-//import vid from '../images/KratzVid.mkv'
+import thumb from '../images/kratzThumb.webp'
 
 function Kratz() {
     return(
@@ -11,7 +11,7 @@ function Kratz() {
                 <p className="text-center mt-4 text-xl text-gray-800 pb-8" >"Kratz is a fast-paced action platformer and endless runner, inspired by Subway Surfers and Temple Run. It features an online leaderboard, cheese dashes, and satisfying chomp sounds</p>
                 <a href="https://www.youtube.com/watch?v=iNYkZy9Sbs4" target="_blank" rel="noopener noreferrer" class="text-center inline-block px-6 pb-3 py-3 mt-4 text-lg font-bold text-white bg-red-600 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:bg-red-700">
   See a tour of the project on YouTube!
-  <img src="https://i9.ytimg.com/vi/iNYkZy9Sbs4/mq1.jpg?sqp=CLSC97cG&rs=AOn4CLAkWi3dScsy6b0JjaX1VXwwIRIIBQ&retry=5" alt="RevMetrix Video Thumbnail" class="w-full"  />
+  <img src={thumb} alt="RevMetrix Video Thumbnail" class="w-full"  />
 </a>
             </div>
           
