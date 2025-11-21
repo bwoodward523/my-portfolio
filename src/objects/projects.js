@@ -55,6 +55,32 @@ const projects = [
       description: "The once peaceful Sporest is under siege by a mysterious dark force that has corrupted its inhabitants. You play as Sporo, a brave and sentient mushroom. Your mission is to fight through the corrupted creatures, defeat the dark wraith, and restore peace to the Sporest.",
       image: sporocover,
       link: '/sporo'
+    },
+    {
+      id: 5,
+      submissiondate: "[Date to be added]",
+      placement: "[Placement to be added]",
+      smalldesc: "[Description to be added]",
+      title: "Blug",
+      itchio: "[Itch.io link to be added]",
+      goal: "[Goal to be added]",
+      role: "[Role to be added]",
+      description: "[Description to be added]",
+      image: sporocover,
+      link: '/blug'
+    },
+    {
+      id: 6,
+      submissiondate: "[Date to be added]",
+      placement: "[Placement to be added]",
+      smalldesc: "[Description to be added]",
+      title: "Cornea Carnage",
+      itchio: "[Itch.io link to be added]",
+      goal: "[Goal to be added]",
+      role: "[Role to be added]",
+      description: "[Description to be added]",
+      image: sporocover,
+      link: '/corneacarnage'
     }
   ];
   

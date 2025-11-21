@@ -5,12 +5,17 @@ import Projects from './pages/Projects';
 import Project1 from './pages/Project1';
 import Project2 from './pages/Project2';
 import Project3 from './pages/Project3';
-import WorkExperience from './pages/Work';
+import FiraxisWork from './pages/FiraxisWork';
 import RevMetrix from './pages/RevMetrix';
 import House from './pages/House';
 import Kratz from './pages/Kratz';
 import Project4 from './pages/Project4';
+import Work from './pages/Work';
+import Blug from './pages/Blug';
+import CorneaCarnage from './pages/CorneaCarnage';
 //import Project3 from './pages/Project3';
+import JCIWork from './pages/JCIWork';
+import CourtsideWork from './pages/CourtsideWork';
 
 function App() {
 
@@ -51,9 +56,13 @@ function App() {
             <Route path="/kratz" element={<Kratz />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/house" element = {<House/>}/>
-            <Route path="/work" element={<WorkExperience />} />
+            <Route path="/firaxiswork" element={<FiraxisWork />} />
             <Route path="/revmetrix" element={<RevMetrix />} />
-
+            <Route path="/work" element={<Work/>}/>
+            <Route path="/blug" element={<Blug />} />
+            <Route path="/corneacarnage" element={<CorneaCarnage />} />
+            <Route path="/jciwork" element={<JCIWork />} />
+            <Route path="/courtsidework" element={<CourtsideWork />} />
           </Routes>
         </main>
       </div>
