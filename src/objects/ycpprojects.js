@@ -3,20 +3,20 @@ import kratz from '../images/Kratz.png'
 import revIcon from '../images/RevIcon.png'
 // import ycpIcon from '../images/ycpicon.png'
 import revMetrixCover from '../images/RevMetrixCap.png'
-
+import amazingcover from '../images/AMAZING.png'
 const projects = [
   
-  {
-    id: 5,
-    title: "RevMetrix: Capstone",
-    date: "Capstone Project",
-    smalldesc: "Capstone project placeholder.",
-    description: "Capstone project placeholder.",
-    image: revMetrixCover,
-    link: "/revmetrix-capstone"
-  },
-  {
+    {
       id: 1,
+      title: "RevMetrix: Capstone",
+      date: "Capstone Project",
+      smalldesc: "Capstone project placeholder.",
+      description: "Capstone project placeholder.",
+      image: revMetrixCover,
+      link: "/revmetrix-capstone"
+    },
+    {
+      id: 2,
       title: "Kratz!",
       date: "Created during the Spring Semester of my Sophomore Year 2024",
       itchio: "https://ravenfight.itch.io/kratz", // use kratz link but other projects don't get a link
@@ -29,7 +29,18 @@ const projects = [
       role: "As part of a sophomore software engineering class, I was tasked with creating an individual project of my choosing, which I used as an opportunity to develop my first Unreal Engine 5 project."
     },
     {
-      id: 2,
+      id: 3,
+      title: "MazeAlgorithm Visualization OpenGL",
+      date: "[Date to be added]",
+      smalldesc: "[Description to be added]",
+      description: "[Description to be added]",
+      image: amazingcover,
+      link: "/maze-algorithm",
+      goal: "[Goal to be added]",
+      role: "[Role to be added]"
+    },
+    {
+      id: 4,
       smalldesc: "Developed with Java, JavaScript, HTML, MySQL, and Servlets in the Eclipse IDE. I gained proficiency in GitHub, collaboration, and determination to meet deadlines.",
       title: "RevMetrix: Software Engineering Course",
       date: "Created during the Spring Semester of my Sophomore Year 2024",
@@ -40,7 +51,7 @@ const projects = [
       role: "My primary role in this project was to develop the bowling ball arsenal, as well as the game and scoring system. However, to ensure all aspects of the assignment were completed on time, I took on additional responsibilities, stepping in to implement the scoring page and support another aspiring developer."
     },
     {
-      id: 3,
+      id: 5,
       title: "OpenGL House",
       date: "Created during the Fall Semester of my Sophomore Year 2024",
       smalldesc: "Created with OpenGL and C++, I created a single-room home featuring 3D models I made, animations, and a mirror!",
@@ -48,7 +59,7 @@ const projects = [
       image: opengl,
       link: "/house"
     },
-
+   
 
   ];
   

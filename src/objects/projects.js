@@ -8,7 +8,7 @@ import blugcover from '../images/Blug.png'
 import corneacarnagecover from '../images/CorneaCarnage.png'
 const projects = [
     {
-      id: 6,
+      id: 1,
       submissiondate: "June 29th 2025 to District Jam 6",
       placement: "1st Place!!!",
       smalldesc: "We got first place in the District Jam 6! This was a really fun game jam and I'm proud of the work we put into it.",
@@ -21,7 +21,7 @@ const projects = [
       link: '/corneacarnage'
     },
     {
-      id: 5,
+      id: 2,
       submissiondate: "January 19th 2025",
       placement: "#16 in Fun and #41 Overall. We did pretty well out of 160 entries!",
       smalldesc: "Fun doomlike boomer shooter game made in Godot! This was a blast to make.",
@@ -35,7 +35,7 @@ const projects = [
     },
     {
       submissiondate: "Submitted on August 18th to GMTK Game Jam 2024",
-      id: 1,
+      id: 3,
       placement: "Out of 7,615 entries, we ranked #1557 in enjoyment and #1737 overall!",
       title: "The Robot Who Baked The World",
       itchio: "https://itch.io/jam/gmtk-2024/rate/2910946",
@@ -48,7 +48,7 @@ const projects = [
     },
     {
       submissiondate: "Submitted on August 12th to LOWREZJAM 2024",
-      id: 2,
+      id: 4,
       title: "Peace to the Meadow",
       smalldesc: "In this game I created the AI for the animals and these creatures had to interact with all the systems in the game that were being developed by my teammates. It took a lot of coordination and communication to integrate all the moving parts we were working on.",
       itchio: "https://itch.io/jam/lowrezjam-2024/rate/2893959",
@@ -61,7 +61,7 @@ const projects = [
     },
     {
       submissiondate: "Submitted on July 23rd, 2024 to ScoreSpace Jam #30",
-      id: 3,
+      id: 5,
       title: "Slime Wants Treasure",
       itchio: "https://itch.io/jam/scorejam30/rate/2792114",
       smalldesc: "In this project I created my own state machine within the Godot engine in order to create flexible animations for the character movement controller.",
@@ -73,7 +73,7 @@ const projects = [
       link: '/slimegame'
     },
     {
-      id: 4,
+      id: 6,
       submissiondate: "Submitted on May 17th, 2024 to Bullet Hell Jam 5",
       placement: "Out of 366 entries, we ranked #50 in fun and #52 overall!",
       smalldesc: "In Sporo, I developed the player movement and shooting. I also developed the AI for the enemies and the boss. I also developed a dynamic, customizable gun base object allowing us to integrate tons of weapons into our game.",

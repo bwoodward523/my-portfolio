@@ -3,11 +3,11 @@ import projects from '../objects/ycpprojects';
 import '../pages/Project1.css'
 import thumb from '../images/houseThumb.webp'
 
-function Kratz() {
+function House() {
     return(
         <div>
             <div className="bg-gray-100 h-auto flex flex-col items-center justify-start p-7 sm:p-10">
-                <h1 className="text-4xl font-bold text-black">{projects[1].title}</h1>
+                <h1 className="text-4xl font-bold text-black">{projects[4].title}</h1>
                 <p className="text-center mt-4 text-xl text-gray-800 pb-16" >Created using the highly regarded CLion IDE, this one-room house features a spinning fan, light switches, a functioning mirror, beautiful artwork, soda bubbles, and numerous 3D models and textures! The carpet and door utilize normal and bump mapping. All 3D models except for the Christmas Tree were created by me. The holiday spirit was added to make this video a joyful holiday showcase of my work.</p>
                 <a href="https://www.youtube.com/watch?v=LqAAstnDdwg" target="_blank" rel="noopener noreferrer" class="text-center inline-block px-6 pb-3 py-3 mt-4 text-lg font-bold text-white bg-red-600 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:bg-red-700">
   See a tour of the project on YouTube!
@@ -23,4 +23,4 @@ function Kratz() {
         </div>
     );
 }
-export default Kratz;
+export default House;

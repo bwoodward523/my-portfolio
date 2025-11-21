@@ -18,6 +18,8 @@ import JCIWork from './pages/JCIWork';
 import CourtsideWork from './pages/CourtsideWork';
 import DirtyBox from './pages/DirtyBox';
 import RevMetrixCapstone from './pages/RevMetrixCapstone';
+import RobotsInRealm from './pages/RobotsInRealm';
+import MazeAlgorithm from './pages/MazeAlgorithm';
 
 function App() {
 
@@ -67,6 +69,8 @@ function App() {
             <Route path="/courtsidework" element={<CourtsideWork />} />
             <Route path="/dirtybox" element={<DirtyBox />} />
             <Route path="/revmetrix-capstone" element={<RevMetrixCapstone />} />
+            <Route path="/robots-in-realm" element={<RobotsInRealm />} />
+            <Route path="/maze-algorithm" element={<MazeAlgorithm />} />
           </Routes>
         </main>
       </div>
