@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "../images/dopefit2.jpg";
-import resume from "./WoodwardResumeFall2024.pdf";
+import resume from "./WoodwardResumeSpr2025.pdf";
 
 function Home(){
     return(  
