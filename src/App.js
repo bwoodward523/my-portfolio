@@ -16,6 +16,8 @@ import CorneaCarnage from './pages/CorneaCarnage';
 //import Project3 from './pages/Project3';
 import JCIWork from './pages/JCIWork';
 import CourtsideWork from './pages/CourtsideWork';
+import DirtyBox from './pages/DirtyBox';
+import RevMetrixCapstone from './pages/RevMetrixCapstone';
 
 function App() {
 
@@ -63,6 +65,8 @@ function App() {
             <Route path="/corneacarnage" element={<CorneaCarnage />} />
             <Route path="/jciwork" element={<JCIWork />} />
             <Route path="/courtsidework" element={<CourtsideWork />} />
+            <Route path="/dirtybox" element={<DirtyBox />} />
+            <Route path="/revmetrix-capstone" element={<RevMetrixCapstone />} />
           </Routes>
         </main>
       </div>

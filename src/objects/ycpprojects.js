@@ -2,7 +2,6 @@ import opengl from '../images/OpenGLhousecover.png'
 import kratz from '../images/Kratz.png'
 import revIcon from '../images/RevIcon.png'
 // import ycpIcon from '../images/ycpicon.png'
-import dirtyBoxCover from '../images/hacks.jpg'
 import revMetrixCover from '../images/RevMetrixCap.png'
 
 const projects = [
@@ -15,15 +14,6 @@ const projects = [
     description: "Capstone project placeholder.",
     image: revMetrixCover,
     link: "/revmetrix-capstone"
-  },
-  {
-    id: 4,
-    title: "DirtyBox",
-    date: "Created during YCPHacks Fall 2024",
-    smalldesc: "A project created for YCPHacks using Raspberry Pi Zero 2w.",
-    description: "A project created for YCPHacks using Raspberry Pi Zero 2w.",
-    image: dirtyBoxCover,
-    link: "/dirtybox"
   },
   {
       id: 1,

@@ -1,9 +1,11 @@
 import React from "react";
 import projects from '../objects/projects';
 import ycpprojects from '../objects/ycpprojects';
+import personalprojects from '../objects/personalprojects';
 import ProjectSummary from '../components/ProjectSummary';
 import GodotIcon from '../images/godotlogo.png'
 import YCPIcon from '../images/ycpicon.png'
+import dopefitcover from '../images/dopefit2.jpg'
 
 function Home(){
     return( 
@@ -21,6 +23,20 @@ function Home(){
             image={project.image}
             link={project.link}
             submissiondate={project.date}
+            />
+          ))}
+          <div className="flex">
+            <h2 className="sm:pt-10 text-3xl font-bold  text-gray-500">Personal Projects</h2>
+            <img className="ml-auto w-20 h-24 object-fill" src = {dopefitcover} alt="Dopefit2"></img>
+          </div>
+          {personalprojects.map(project => (
+            <ProjectSummary
+            key={project.id}
+            title={project.title}
+            description={project.smalldesc}
+            image={project.image}
+            link={project.link}
+            submissiondate={project.date || project.submissiondate}
             />
           ))}
           <div className="flex">

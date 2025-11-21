@@ -9,6 +9,7 @@ function JCIWork() {
             <p className="text-center p-2 pt-20 text-5xl font-bold ">
                 <img className="inline w-1/4 h-1/4 object-scale-down" alt="Johnson Controls logo" src={jcilogo} />
                 <br /> Software Test Automation Engineering Intern <br />
+                <br /> THE TEXT IN THIS PAGE IS PLACEHOLDER TEXT ... THE PAGE IS UNDER CONSTRUCTION
             </p>
             <p className="text-center pt-6 text-3xl font-bold mb-6">New Freedom, PA</p>
             <div className="bg-gray-100 p-8 md:p-16 lg:p-20 flex flex-col items-center">

@@ -8,6 +8,32 @@ import blugcover from '../images/Blug.png'
 import corneacarnagecover from '../images/CorneaCarnage.png'
 const projects = [
     {
+      id: 6,
+      submissiondate: "June 29th 2025 to District Jam 6",
+      placement: "1st Place!!!",
+      smalldesc: "We got first place in the District Jam 6! This was a really fun game jam and I'm proud of the work we put into it.",
+      title: "Cornea Carnage",
+      itchio: "https://itch.io/jam/district-jam-6/rate/3681122",
+      goal: "[Goal to be added]",
+      role: "[Role to be added]",
+      description: "[Description to be added]",
+      image: corneacarnagecover,
+      link: '/corneacarnage'
+    },
+    {
+      id: 5,
+      submissiondate: "January 19th 2025",
+      placement: "#16 in Fun and #41 Overall. We did pretty well out of 160 entries!",
+      smalldesc: "Fun doomlike boomer shooter game made in Godot! This was a blast to make.",
+      title: "Blug",
+      itchio: "https://itch.io/jam/godot-wild-jam-77/rate/3254386",
+      goal: "[Goal to be added]",
+      role: "[Role to be added]",
+      description: "[Description to be added]",
+      image: blugcover,
+      link: '/blug'
+    },
+    {
       submissiondate: "Submitted on August 18th to GMTK Game Jam 2024",
       id: 1,
       placement: "Out of 7,615 entries, we ranked #1557 in enjoyment and #1737 overall!",
@@ -59,32 +85,7 @@ const projects = [
       image: sporocover,
       link: '/sporo'
     },
-    {
-      id: 5,
-      submissiondate: "[Date to be added]",
-      placement: "[Placement to be added]",
-      smalldesc: "[Description to be added]",
-      title: "Blug",
-      itchio: "[Itch.io link to be added]",
-      goal: "[Goal to be added]",
-      role: "[Role to be added]",
-      description: "[Description to be added]",
-      image: blugcover,
-      link: '/blug'
-    },
-    {
-      id: 6,
-      submissiondate: "[Date to be added]",
-      placement: "[Placement to be added]",
-      smalldesc: "[Description to be added]",
-      title: "Cornea Carnage",
-      itchio: "[Itch.io link to be added]",
-      goal: "[Goal to be added]",
-      role: "[Role to be added]",
-      description: "[Description to be added]",
-      image: corneacarnagecover,
-      link: '/corneacarnage'
-    }
+    
   ];
   
 export default projects;
