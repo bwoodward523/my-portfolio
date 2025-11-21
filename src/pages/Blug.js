@@ -3,7 +3,7 @@ import projects from '../objects/projects';
 import '../pages/Project1.css'
 
 function Blug() {
-    const project = projects.find(p => p.id === 5);
+    const project = projects.find(p => p.id === 2);
     return(
         <div className="w-screen">
             <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-start p-10">

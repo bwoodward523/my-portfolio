@@ -3,7 +3,7 @@ import projects from '../objects/projects';
 import '../pages/Project1.css'
 
 function CorneaCarnage() {
-    const project = projects.find(p => p.id === 6);
+    const project = projects.find(p => p.id === 1);
     return(
         <div>
             <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-start p-10">
