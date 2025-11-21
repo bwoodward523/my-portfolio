@@ -1,9 +1,31 @@
 import opengl from '../images/OpenGLhousecover.png'
 import kratz from '../images/Kratz.png'
 import revIcon from '../images/RevIcon.png'
+// import ycpIcon from '../images/ycpicon.png'
+import dirtyBoxCover from '../images/hacks.jpg'
+import revMetrixCover from '../images/RevMetrixCap.png'
 
 const projects = [
-    {
+  
+  {
+    id: 5,
+    title: "RevMetrix: Capstone",
+    date: "Capstone Project",
+    smalldesc: "Capstone project placeholder.",
+    description: "Capstone project placeholder.",
+    image: revMetrixCover,
+    link: "/revmetrix-capstone"
+  },
+  {
+    id: 4,
+    title: "DirtyBox",
+    date: "Created during YCPHacks Fall 2024",
+    smalldesc: "A project created for YCPHacks using Raspberry Pi Zero 2w.",
+    description: "A project created for YCPHacks using Raspberry Pi Zero 2w.",
+    image: dirtyBoxCover,
+    link: "/dirtybox"
+  },
+  {
       id: 1,
       title: "Kratz!",
       date: "Created during the Spring Semester of my Sophomore Year 2024",
@@ -19,7 +41,7 @@ const projects = [
     {
       id: 2,
       smalldesc: "Developed with Java, JavaScript, HTML, MySQL, and Servlets in the Eclipse IDE. I gained proficiency in GitHub, collaboration, and determination to meet deadlines.",
-      title: "RevMetrix",
+      title: "RevMetrix: Software Engineering Course",
       date: "Created during the Spring Semester of my Sophomore Year 2024",
       description: "A staff of bowlers thirsty for statistics, a website created to portray their wishes.",
       image: revIcon,
@@ -35,7 +57,9 @@ const projects = [
       description: "Created with OpenGL and C++, I created a single-room home featuring 3D models I made, animations, and a mirror!",
       image: opengl,
       link: "/house"
-    }
+    },
+
+
   ];
   
 export default projects;

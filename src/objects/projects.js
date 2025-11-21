@@ -3,6 +3,9 @@ import robotimg from '../images/robotcover.jpg'
 import ptmcover from '../images/ptmcover.png'
 import slimecover from '../images/slimecover.png'
 import sporocover from '../images/sporocover.png'
+
+import blugcover from '../images/Blug.png'
+import corneacarnagecover from '../images/CorneaCarnage.png'
 const projects = [
     {
       submissiondate: "Submitted on August 18th to GMTK Game Jam 2024",
@@ -66,7 +69,7 @@ const projects = [
       goal: "[Goal to be added]",
       role: "[Role to be added]",
       description: "[Description to be added]",
-      image: sporocover,
+      image: blugcover,
       link: '/blug'
     },
     {
@@ -79,7 +82,7 @@ const projects = [
       goal: "[Goal to be added]",
       role: "[Role to be added]",
       description: "[Description to be added]",
-      image: sporocover,
+      image: corneacarnagecover,
       link: '/corneacarnage'
     }
   ];

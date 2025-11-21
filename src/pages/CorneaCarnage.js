@@ -14,11 +14,11 @@ function CorneaCarnage() {
                 <div className="sm:hidden pt-48 text-xl font-bold text-center text-blue-600">This website features an embedded version of this game which is only available on a personal computer.</div>
             </div>
             <p className="bg-gray-400 text-center pt-20 text-5xl font-bold text-white">Role & Goal</p>
-            <div className="flex flex-col sm:flex-row text-center">
-                <div className="bg-gray-400 p-4 sm:p-10 text-2xl sm:text-3xl font-bold flex justify-center text-white">
+            <div className="flex flex-col sm:flex-row text-center w-screen">
+                <div className="bg-gray-400 p-4 sm:p-10 text-2xl sm:text-3xl font-bold flex justify-center text-white flex-1 w-full sm:w-1/2">
                     {project?.role || "[Role to be added]"}
                 </div>
-                <div className="bg-gray-400 p-4 sm:p-10 text-2xl sm:text-3xl font-bold flex justify-center text-white">
+                <div className="bg-gray-400 p-4 sm:p-10 text-2xl sm:text-3xl font-bold flex justify-center text-white flex-1 w-full sm:w-1/2">
                     {project?.goal || "[Goal to be added]"}
                 </div>
             </div>
