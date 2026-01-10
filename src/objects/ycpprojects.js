@@ -9,7 +9,7 @@ const projects = [
     {
       id: 1,
       title: "RevMetrix: Capstone",
-      date: "Capstone Project",
+      date: "Spring 2025 - Fall 2025",
       smalldesc: "Capstone project placeholder.",
       description: "Capstone project placeholder.",
       image: revMetrixCover,
@@ -18,11 +18,11 @@ const projects = [
     {
       id: 2,
       title: "Kratz!",
-      date: "Created during the Spring Semester of my Sophomore Year 2024",
+      date: "Spring 2024",
       itchio: "https://ravenfight.itch.io/kratz", // use kratz link but other projects don't get a link
-      description: "In a mix of all your favorite endless runners, become responsible for the life of a rat. Try not to blow yourself up! Survive as long as you can!",
+      description: "Software Engineering, indepenent project. In a mix of all your favorite endless runners, become responsible for the life of a rat. Try not to blow yourself up! Survive as long as you can!",
       image: kratz, 
-      smalldesc: "I took on this project to learn Unreal Engine 5 in order to prepare for my Firaxis Games internship. I also learned character modeling, rigging, and animating in Blender and adjusted to Unreal Engine's Blueprint coding system.",
+      smalldesc: "In Software Engineering CS320, as an independent project, I took on this project to learn Unreal Engine 5 in order to prepare for my Firaxis Games internship. I also learned character modeling, rigging, and animating in Blender and adjusted to Unreal Engine's Blueprint coding system.",
       link: '/kratz',
       notes: "I 3D modeled, textured, rigged, and animated the rat for gameplay. I also created the music and sound effects. I used default textures from UE5 for the sewer.",
       goal: "Developing Kratz gave me the opportunity to explore the fundamentals and tools of Unreal Engine 5. With no prior experience, I delved into systems like the Niagara water system and found myself fully immersed in the development process. This project also provided invaluable preparation for my summer internship with Firaxis, allowing me to familiarize myself with the engine.",
@@ -31,7 +31,7 @@ const projects = [
     {
       id: 3,
       title: "MazeAlgorithm Visualization OpenGL",
-      date: "[Date to be added]",
+      date: "Spring 2025",
       smalldesc: "[Description to be added]",
       description: "[Description to be added]",
       image: amazingcover,
@@ -43,7 +43,7 @@ const projects = [
       id: 4,
       smalldesc: "Developed with Java, JavaScript, HTML, MySQL, and Servlets in the Eclipse IDE. I gained proficiency in GitHub, collaboration, and determination to meet deadlines.",
       title: "RevMetrix: Software Engineering Course",
-      date: "Created during the Spring Semester of my Sophomore Year 2024",
+      date: "Spring 2024",
       description: "A staff of bowlers thirsty for statistics, a website created to portray their wishes.",
       image: revIcon,
       link: "/revmetrix",
@@ -53,7 +53,7 @@ const projects = [
     {
       id: 5,
       title: "OpenGL House",
-      date: "Created during the Fall Semester of my Sophomore Year 2024",
+      date: "Fall 2024",
       smalldesc: "Created with OpenGL and C++, I created a single-room home featuring 3D models I made, animations, and a mirror!",
       description: "Created with OpenGL and C++, I created a single-room home featuring 3D models I made, animations, and a mirror!",
       image: opengl,

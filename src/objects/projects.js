@@ -9,7 +9,7 @@ import corneacarnagecover from '../images/CorneaCarnage.png'
 const projects = [
     {
       id: 1,
-      submissiondate: "June 29th 2025 to District Jam 6",
+      submissiondate: "June 29th 2025, District Jam 6",
       placement: "1st Place!!!",
       smalldesc: "We got first place in the District Jam 6! This was a really fun game jam and I'm proud of the work we put into it.",
       title: "Cornea Carnage",
@@ -34,7 +34,7 @@ const projects = [
       link: '/blug'
     },
     {
-      submissiondate: "Submitted on August 18th to GMTK Game Jam 2024",
+      submissiondate: "August 18th 2024, GMTK Game Jam 2024",
       id: 3,
       placement: "Out of 7,615 entries, we ranked #1557 in enjoyment and #1737 overall!",
       title: "The Robot Who Baked The World",
@@ -47,7 +47,7 @@ const projects = [
       role: "Wrapping up a long sprint at the end of the Firaxis internship combined with the end of a two-week game jam; I decided that in this project I would focus on supporting my teammates and picking up as many loose ends as I could."
     },
     {
-      submissiondate: "Submitted on August 12th to LOWREZJAM 2024",
+      submissiondate: "August 12th 2024, LOWREZJAM 2024",
       id: 4,
       title: "Peace to the Meadow",
       smalldesc: "In this game I created the AI for the animals and these creatures had to interact with all the systems in the game that were being developed by my teammates. It took a lot of coordination and communication to integrate all the moving parts we were working on.",
@@ -60,7 +60,7 @@ const projects = [
       role: "In this game, I developed the animals and their behaviors. To achieve this, I collaborated with other engineers to integrate the animals with the game's mechanics, such as eating plants and attacking spirits."
     },
     {
-      submissiondate: "Submitted on July 23rd, 2024 to ScoreSpace Jam #30",
+      submissiondate: "July 23rd, 2024, ScoreSpace Jam #30",
       id: 5,
       title: "Slime Wants Treasure",
       itchio: "https://itch.io/jam/scorejam30/rate/2792114",
@@ -74,7 +74,7 @@ const projects = [
     },
     {
       id: 6,
-      submissiondate: "Submitted on May 17th, 2024 to Bullet Hell Jam 5",
+      submissiondate: "May 17th, 2024, Bullet Hell Jam 5",
       placement: "Out of 366 entries, we ranked #50 in fun and #52 overall!",
       smalldesc: "In Sporo, I developed the player movement and shooting. I also developed the AI for the enemies and the boss. I also developed a dynamic, customizable gun base object allowing us to integrate tons of weapons into our game.",
       title: "Sporo",

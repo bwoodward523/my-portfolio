@@ -5,7 +5,7 @@ const personalprojects = [
   {
     id: 1,
     title: "DirtyBox",
-    date: "Created during YCPHacks Fall 2024",
+    date: "YCPHacks Fall 2024",
     smalldesc: "A project created for YCPHacks using Raspberry Pi Zero 2w.",
     description: "A project created for YCPHacks using Raspberry Pi Zero 2w.",
     image: dirtyBoxCover,
