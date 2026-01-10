@@ -18,22 +18,19 @@ const ProjectSummary = ({title, description, image, link, submissiondate}) => {
             />
         </div>  
     </div>
-    {/* <div className="hover:animate-pulse flex flex-col items-center mb-8 p-4 border rounded-lg shadow-md sm:hidden">
-        <div className="flex-1 ">
-        
-            <h2 className="text-xl font-semibold mb-2">{title}</h2>
-            <img
+    <div className="hover:scale-[1.02] transition-transform duration-100 flex flex-col items-center mb-8 p-4 border rounded-lg shadow-md sm:hidden">
+        <h2 className="text-xl font-semibold mb-2 text-center">{title}</h2>
+        <img
             src={image}
             alt={title}
-            className="w-32 h-32 object-cover rounded-lg shadow-lg"
-            />
-            <p className="text-gray-700">{description}<br></br>{submissiondate}</p>
-        </div>
-        <div className="mr-4 flex-shrink-0">
-            
-        </div>
-        
-    </div> */}
+            className="w-48 h-32 object-scale-down mb-2"
+        />
+        <p className="text-gray-700 text-center">
+            <span className="font-bold">{submissiondate}</span>
+            <br></br>
+            {description}
+        </p>
+    </div>
     </Link>
     
   );
