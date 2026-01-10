@@ -1,5 +1,7 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, NavLink, } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
+import BackButton from './components/BackButton';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Project1 from './pages/Project1';
@@ -25,28 +27,18 @@ function App() {
 
   return (
     <Router>
-     
+      <ScrollToTop />
       <div>
          <div className={`p-4 w-screen bg-gray-800 text-white flex flex-grow justify-between items-center transition-max-height duration-1000`}>
          
-          <nav className={`w-screen bg-gray-800 text-white p-4 transition duration-500 flex-grow `}>
-          <ul className="flex justify-center space-x-10 md:space-x-16 lg:space-x-32">
-            <li className="transition-transform duration-300 transform hover:scale-150">
-              <NavLink to="/" className={({ isActive }) => 
-                    `transition duration-300 hover:text-blue-600 ${isActive ? 'text-blue-600 underline' : ''}`}>About</NavLink>
-            </li>
-            <li className="transition-transform duration-300 transform hover:scale-150">
-              <NavLink to="/projects" className={({ isActive }) => 
-                    `transition duration-300 hover:text-blue-600 ${isActive ? 'text-blue-600 underline' : ''}`}>Projects</NavLink>
-            </li>
-            <li className="transition-transform duration-300 transform hover:scale-150">
-              <NavLink to="/work" className={({ isActive }) => 
-                    `transition duration-300 hover:text-blue-600 ${isActive ? 'text-blue-600 underline' : ''}`}>Work Experience</NavLink>
-            </li>
-           
-            
-            
+          <nav className={`w-screen bg-gray-800 text-white p-4 transition duration-500 flex-grow flex items-center`}>
+          <div className="flex-1 flex items-center">
+            <BackButton />
+          </div>
+          <ul className="flex justify-center space-x-10 md:space-x-16 lg:space-x-32 flex-1">
+
           </ul>
+          <div className="flex-1"></div>
         </nav>
         </div>
   
