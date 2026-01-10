@@ -56,7 +56,8 @@ function Home(){
           className="md:mx-26 lg:mx-52 p-8 cursor-pointer hover:bg-gray-200 transition-colors duration-200"
           onClick={() => setWorkExpanded(!workExpanded)}
         >
-          <div className="flex items-center justify-between w-screen">
+          
+          <div className="flex items-center justify-between">
             <h2 className="text-3xl font-bold text-gray-500">Work Experience</h2>
             <span className="text-2xl text-gray-500">
               {workExpanded ? '−' : '+'}
@@ -111,7 +112,7 @@ function Home(){
             </div>
           </div>
           <div className={`pl-4 pb-4 overflow-hidden transition-all duration-500 ease-in-out ${
-            ycpExpanded ? 'max-h-[1500px] opacity-100' : 'max-h-0 opacity-0'
+            ycpExpanded ? 'max-h-[2500px] opacity-100' : 'max-h-0 opacity-0'
           }`}>
             {ycpprojects.map(project => (
               <ProjectSummary
@@ -141,7 +142,7 @@ function Home(){
             </div>
           </div>
           <div className={`pl-4 pb-4 overflow-hidden transition-all duration-500 ease-in-out ${
-            personalExpanded ? 'max-h-[800px] opacity-100' : 'max-h-0 opacity-0'
+            personalExpanded ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'
           }`}>
             {personalprojects.map(project => (
               <ProjectSummary
@@ -174,7 +175,7 @@ function Home(){
             </div>
           </div>
           <div className={`pl-4 pb-4 overflow-hidden transition-all duration-500 ease-in-out ${
-            godotExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
+            godotExpanded ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'
           }`}>
             {projects.map(project => (
               <ProjectSummary
