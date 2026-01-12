@@ -51,14 +51,14 @@ function Home(){
       </div>
 
       {/* Work Experience Section */}
-      <div className="bg-gray-100">
+      <div className="bg-gray-100"> 
         <div 
           className="md:mx-26 lg:mx-52 p-8 cursor-pointer hover:bg-gray-200 transition-colors duration-200"
           onClick={() => setWorkExpanded(!workExpanded)}
         >
           
           <div className="flex items-center justify-between">
-            <h2 className="text-3xl font-bold text-gray-500">Work Experience</h2>
+            <h2 className="text-3xl font-bold text-gray-500">Work Experience <span className="text-xl text-gray-500">(Click to expand)</span></h2>
             <span className="text-2xl text-gray-500">
               {workExpanded ? '−' : '+'}
             </span>
@@ -67,6 +67,7 @@ function Home(){
         <div className={`md:mx-26 lg:mx-52 px-8 pb-8 overflow-hidden transition-all duration-500 ease-in-out ${
           workExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
         }`}>
+           <p className="text-xl text-gray-500 mb-2">(Click the items! They have their own pages!)</p>
           {work.map(workItem => (
             <ProjectSummary
               key={workItem.id}
@@ -84,10 +85,10 @@ function Home(){
       <div className="bg-gray-100">
         <div 
           className="md:mx-26 lg:mx-52 p-8 cursor-pointer hover:bg-gray-200 transition-colors duration-200"
-          onClick={() => setProjectsExpanded(!projectsExpanded)}
-        >
+          onClick={() => setProjectsExpanded(!projectsExpanded)} 
+        > 
           <div className="flex items-center justify-between">
-            <h2 className="text-3xl font-bold text-gray-500">Projects</h2>
+            <h2 className="text-3xl font-bold text-gray-500">Projects <span className="text-xl text-gray-500">(Click to expand)</span></h2>
             <span className="text-2xl text-gray-500">
               {projectsExpanded ? '−' : '+'}
             </span>
@@ -96,6 +97,7 @@ function Home(){
         <div className={`md:mx-26 lg:mx-52 px-8 pb-8 overflow-hidden transition-all duration-500 ease-in-out ${
           projectsExpanded ? 'max-h-[5000px] opacity-100' : 'max-h-0 opacity-0'
         }`}>
+        <p className="text-xl text-gray-500 mb-2">(Click the items! They have their own pages!)</p>
           {/* YCP Projects */}
           <div 
             className="mt-4 cursor-pointer hover:bg-gray-200 transition-colors duration-200 rounded p-4"

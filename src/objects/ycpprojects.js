@@ -4,6 +4,7 @@ import revIcon from '../images/RevIcon.png'
 // import ycpIcon from '../images/ycpicon.png'
 import revMetrixCover from '../images/RevMetrixCap.png'
 import amazingcover from '../images/AMAZING.png'
+import rfidcover from '../images/carsonbrandon.jpg'
 const projects = [
   
     {
@@ -14,6 +15,15 @@ const projects = [
       description: "Capstone project placeholder.",
       image: revMetrixCover,
       link: "/revmetrix-capstone"
+    },
+    {
+      id: 6,
+      title: "RFID Cloner",
+      date: "Spring 2025",
+      smalldesc: "Using a Raspberry Pi, Proxmark3, battery pack, and a 3D printed case, I worked with Carson to create a RFID cloner capable of cloning all of YCPs RFID cards.",
+      description: "Using a Raspberry Pi, Proxmark3, battery pack, and a 3D printed case, I worked with Carson to create a RFID cloner capable of cloning all of YCPs RFID cards.",
+      image: rfidcover,
+      link: "/rfid-cloner",
     },
     {
       id: 2,
@@ -40,6 +50,7 @@ const projects = [
       role: "[Role to be added]"
     },
     {
+
       id: 4,
       smalldesc: "Developed with Java, JavaScript, HTML, MySQL, and Servlets in the Eclipse IDE. I gained proficiency in GitHub, collaboration, and determination to meet deadlines.",
       title: "RevMetrix: Software Engineering Course",
@@ -59,7 +70,7 @@ const projects = [
       image: opengl,
       link: "/house"
     },
-   
+    
 
   ];
   

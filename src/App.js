@@ -22,6 +22,7 @@ import DirtyBox from './pages/DirtyBox';
 import RevMetrixCapstone from './pages/RevMetrixCapstone';
 import RobotsInRealm from './pages/RobotsInRealm';
 import MazeAlgorithm from './pages/MazeAlgorithm';
+import RFID from './pages/RFID';
 
 function App() {
 
@@ -63,6 +64,7 @@ function App() {
             <Route path="/revmetrix-capstone" element={<RevMetrixCapstone />} />
             <Route path="/robots-in-realm" element={<RobotsInRealm />} />
             <Route path="/maze-algorithm" element={<MazeAlgorithm />} />
+            <Route path="/rfid-cloner" element={<RFID />} />
           </Routes>
         </main>
       </div>
