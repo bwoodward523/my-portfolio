@@ -1,38 +1,61 @@
 import React from "react";
 import projects from '../objects/projects';
-import '../pages/Project1.css'
+import ArticleLayout, { ArticleHeader, ArticleSection, ArticleIframe } from '../components/ArticleLayout';
 
 //PTM
 function Project2() {
     const project = projects.find(p => p.id === 4);
+    
     return(
-        <div>
-            <div className="bg-green-800 min-h-screen flex flex-col items-center justify-start p-10">
-                <h1 className="text-4xl font-bold text-white">{project.title}</h1>
-                <p className="text-center mt-4 text-gray-400" >{project.description}</p>
-                <iframe title="robot" class="responsive-iframe" frameborder="0" src={`${process.env.PUBLIC_URL}/peacetothemeadow/index.html`} allowfullscreen="" >
-            
-                </iframe>
-                <div className="sm:hidden pt-48 text-xl font-bold text-center text-white">This website features an embedded version of this game which is only available on a personal computer.</div>
+        <ArticleLayout>
+            <ArticleHeader 
+                title={project?.title || "Peace to the Meadow"}
+                subtitle={project?.description || "[Description to be added]"}
+            />
 
-            </div>
-            <p className="bg-gray-400 text-center pt-20 text-5xl font-bold text-white">Role & Goal</p>
-            <div className="flex flex-col sm:flex-row text-center">
-                <div className="bg-gray-400 p-4 sm:p-10 text-2xl sm:text-3xl font-bold flex justify-center text-white">
-                    {project.role}
+            <ArticleSection variant="light">
+                <ArticleIframe 
+                    src={`${process.env.PUBLIC_URL}/PeacetotheMeadow/index.html`}
+                    title="Peace to the Meadow"
+                    fullWidth={true}
+                    variant="light"
+                />
+            </ArticleSection>
+
+            <ArticleSection variant="dark">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-100 mb-8 text-center">Role & Goal</h2>
+                <div className="flex flex-col sm:flex-row text-center gap-4">
+                    <div className="p-4 sm:p-10 text-xl sm:text-2xl font-bold flex justify-center items-center text-white flex-1 bg-gray-800 rounded-lg">
+                        <div>
+                            <h3 className="text-2xl sm:text-3xl mb-4 text-blue-400">Role</h3>
+                            <p>{project?.role || "[Role to be added]"}</p>
+                        </div>
+                    </div>
+                    <div className="p-4 sm:p-10 text-xl sm:text-2xl font-bold flex justify-center items-center text-white flex-1 bg-gray-800 rounded-lg">
+                        <div>
+                            <h3 className="text-2xl sm:text-3xl mb-4 text-blue-400">Goal</h3>
+                            <p>{project?.goal || "[Goal to be added]"}</p>
+                        </div>
+                    </div>
                 </div>
-                <div className="bg-gray-400 p-4 sm:p-10 text-2xl sm:text-3xl font-bold flex justify-center text-white">
-                    {project.goal}
+            </ArticleSection>
+
+            <ArticleSection variant="dark">
+                <div className="text-center">
+                    <p className="text-2xl sm:text-4xl font-bold text-white mb-8">{project?.placement || "[Placement to be added]"}</p>
+                    {project?.itchio && (
+                        <a 
+                            href={project.itchio} 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="inline-block text-xs sm:text-2xl bg-blue-500 hover:bg-blue-700 duration-200 px-8 py-4 transform hover:scale-105 rounded-lg text-white font-bold"
+                        >
+                            Project Submission Page
+                        </a>
+                    )}
                 </div>
-            </div>
-            <div className="p-20 text-5xl font-bold bg-gray-900 text-white flex flex-col">
-                <p className="text-center text-2xl sm:text-5xl pb-5">{project.placement}</p>
-                <a href={project.itchio}  target="_blank" rel="noopener noreferrer" className="text-center text-xs sm:text-5xl  bg-green-800 hover:bg-green-900 duration-200 px-16 py-4 transform hover:scale-105">Project Submission Page</a>
-            
-            </div>
-            
-        </div>
-        
+            </ArticleSection>
+        </ArticleLayout>
     );
 }
 export default Project2;

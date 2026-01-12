@@ -3,6 +3,8 @@ import ArticleHeader from './ArticleHeader';
 import ArticleSection from './ArticleSection';
 import ArticleParagraph from './ArticleParagraph';
 import ArticleFigure from './ArticleFigure';
+import ArticleVideo from './ArticleVideo';
+import ArticleIframe from './ArticleIframe';
 
 /**
  * ArticleLayout - A wrapper component that provides a standardized article layout
@@ -13,6 +15,7 @@ import ArticleFigure from './ArticleFigure';
  *   <ArticleSection variant="light">
  *     <ArticleParagraph>Content here</ArticleParagraph>
  *     <ArticleFigure src={img} alt="Alt" caption="Caption" />
+ *     <ArticleIframe src="/path/to/game.html" title="Game" />
  *   </ArticleSection>
  *   <ArticleSection variant="dark">
  *     <ArticleParagraph variant="dark">More content</ArticleParagraph>
@@ -28,4 +31,4 @@ function ArticleLayout({ children, className = "" }) {
 }
 
 export default ArticleLayout;
-export { ArticleHeader, ArticleSection, ArticleParagraph, ArticleFigure };
+export { ArticleHeader, ArticleSection, ArticleParagraph, ArticleFigure, ArticleVideo, ArticleIframe };
