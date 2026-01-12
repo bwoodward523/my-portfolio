@@ -11,8 +11,8 @@ const projects = [
       id: 1,
       title: "RevMetrix: Capstone",
       date: "Spring 2025 - Fall 2025",
-      smalldesc: "Capstone project placeholder.",
-      description: "Capstone project placeholder.",
+      smalldesc: "Senior Capstone project; A multifaceted, multidisciplinary, automated bowling data collection system.",
+      description: "",
       image: revMetrixCover,
       link: "/revmetrix-capstone"
     },
