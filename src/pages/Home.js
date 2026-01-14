@@ -204,7 +204,7 @@ function Home(){
         <div className="flex flex-col flex-grow justify-center bg-gray-400 text-white pt-10">
           <ul >
             <li className="text-center text-2xl pb-4">443-862-7644 </li>
-            <li className="text-center text-2xl pb-4 "><a className="transition hover:text-blue-600 duration-400"href= "mailto: bwoodward@ycp.edu">bwoodward@ycp.edu</a></li>
+            <li className="text-center text-2xl pb-4 "><a className="transition hover:text-blue-600 duration-400"href= "mailto: brandon790523@gmail.com">brandon790523@gmail.com</a></li>
           </ul>  
         </div>
       </div>
