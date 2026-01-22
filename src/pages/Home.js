@@ -47,8 +47,7 @@ function Home(){
       </div>
     
       <div className="bg-gray-900 p-10 sm:p-20 text-3xl md:text-5xl font-bold flex justify-center text-white md:px-24 lg:px-52 text-center">
-        A senior at York College of Pennsylvania focused on creating imaginative, cutting-edge software, expanding my programming skills, and eager to work alongside knowledgeable team members. 
-      </div>
+A senior at York College of Pennsylvania focused on creating imaginative, cutting-edge software and expanding my programming skills. I have led a 5-person subteam on a multidisciplinary capstone project, RevMetrix, developing a hardware-software-cloud system. My work included enabling arm64 support for the MetaWear library on Raspberry Pi 5, configuring 9-DOF IMU sensors, and ensuring robust system operation across hardware and software components. I plan to graduate in Fall 2026.      </div>
 
       {/* Work Experience Section */}
       <div className="bg-gray-100"> 
