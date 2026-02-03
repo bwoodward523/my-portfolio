@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import img1 from "../images/dopefit2.jpg";
-import resume from "./WoodwardResumeSpr2025.pdf";
+import resume from "./WoodwardResumeFeb2026.pdf";
 import work from '../objects/work';
 import projects from '../objects/projects';
 import ycpprojects from '../objects/ycpprojects';
@@ -11,51 +11,52 @@ import GodotIcon from '../images/godotlogo.png';
 import YCPIcon from '../images/ycpicon.png';
 import dopefitcover from '../images/dopefit2.jpg';
 
-function Home(){
-    // Initialize state from sessionStorage if available
-    const getSavedState = (key, defaultValue) => {
-        const saved = sessionStorage.getItem(`homeExpandedState_${key}`);
-        return saved !== null ? JSON.parse(saved) : defaultValue;
-    };
+function Home() {
+  // Initialize state from sessionStorage if available
+  const getSavedState = (key, defaultValue) => {
+    const saved = sessionStorage.getItem(`homeExpandedState_${key}`);
+    return saved !== null ? JSON.parse(saved) : defaultValue;
+  };
 
-    const [workExpanded, setWorkExpanded] = useState(() => getSavedState('work', false));
-    const [projectsExpanded, setProjectsExpanded] = useState(() => getSavedState('projects', false));
-    const [ycpExpanded, setYcpExpanded] = useState(() => getSavedState('ycp', false));
-    const [personalExpanded, setPersonalExpanded] = useState(() => getSavedState('personal', false));
-    const [godotExpanded, setGodotExpanded] = useState(() => getSavedState('godot', false));
+  const [workExpanded, setWorkExpanded] = useState(() => getSavedState('work', false));
+  const [projectsExpanded, setProjectsExpanded] = useState(() => getSavedState('projects', false));
+  const [ycpExpanded, setYcpExpanded] = useState(() => getSavedState('ycp', false));
+  const [personalExpanded, setPersonalExpanded] = useState(() => getSavedState('personal', false));
+  const [godotExpanded, setGodotExpanded] = useState(() => getSavedState('godot', false));
 
-    // Save state to sessionStorage whenever any expandable state changes
-    useEffect(() => {
-        sessionStorage.setItem('homeExpandedState_work', JSON.stringify(workExpanded));
-        sessionStorage.setItem('homeExpandedState_projects', JSON.stringify(projectsExpanded));
-        sessionStorage.setItem('homeExpandedState_ycp', JSON.stringify(ycpExpanded));
-        sessionStorage.setItem('homeExpandedState_personal', JSON.stringify(personalExpanded));
-        sessionStorage.setItem('homeExpandedState_godot', JSON.stringify(godotExpanded));
-    }, [workExpanded, projectsExpanded, ycpExpanded, personalExpanded, godotExpanded]);
+  // Save state to sessionStorage whenever any expandable state changes
+  useEffect(() => {
+    sessionStorage.setItem('homeExpandedState_work', JSON.stringify(workExpanded));
+    sessionStorage.setItem('homeExpandedState_projects', JSON.stringify(projectsExpanded));
+    sessionStorage.setItem('homeExpandedState_ycp', JSON.stringify(ycpExpanded));
+    sessionStorage.setItem('homeExpandedState_personal', JSON.stringify(personalExpanded));
+    sessionStorage.setItem('homeExpandedState_godot', JSON.stringify(godotExpanded));
+  }, [workExpanded, projectsExpanded, ycpExpanded, personalExpanded, godotExpanded]);
 
-    return(  
+  return (
     <div className="flex flex-col flex-grow bg-no-repeat  bg-cover to-indigo-500 ">
-      <ScrollPositionTracker />        
+      <ScrollPositionTracker />
 
-     
+
       <div className="flex flex-col justify-center items-center">
-      <img className=" pt-10 block ml-auto mr-auto w-64 h-128" src={img1} alt="Brandon Woodward"></img>
+        <img className=" pt-10 block ml-auto mr-auto w-64 h-128" src={img1} alt="Brandon Woodward"></img>
         <div className="">
           <h1 className="relative text-center pt-20 text-5xl font-bold mb-6">Brandon Woodward</h1>
           <h2 className="relative text-center pb-20 text-4xl font-bold">Software Engineer</h2>
         </div>
       </div>
-    
+
       <div className="bg-gray-900 p-10 sm:p-20 text-3xl md:text-5xl font-bold flex justify-center text-white md:px-24 lg:px-52 text-center">
-A senior at York College of Pennsylvania focused on creating imaginative, cutting-edge software and expanding my programming skills. I have led a 5-person subteam on a multidisciplinary capstone project, RevMetrix, developing a hardware-software-cloud system. My work included enabling arm64 support for the MetaWear library on Raspberry Pi 5, configuring 9-DOF IMU sensors, and ensuring robust system operation across hardware and software components. I plan to graduate in Fall 2026.      </div>
+        A senior at York College of Pennsylvania focused on creating imaginative, cutting-edge software, expanding my programming skills. Joining the Captsone project, RevMetrix, early in my junior year, I worked in a large multidisciplinary team. My work included Raspberry Pi's, Python scripting, system architecture design, and integrating with embedded sensors. I also coordinated system integration and cross-team execution in a 5-person sub-team. I plan to graduate in Fall 2026.  
+      </div>
 
       {/* Work Experience Section */}
-      <div className="bg-gray-100"> 
-        <div 
+      <div className="bg-gray-100">
+        <div
           className="md:mx-26 lg:mx-52 p-8 cursor-pointer hover:bg-gray-200 transition-colors duration-200"
           onClick={() => setWorkExpanded(!workExpanded)}
         >
-          
+
           <div className="flex items-center justify-between">
             <h2 className="text-3xl font-bold text-gray-500">Work Experience <span className="text-xl text-gray-500">(Click to expand)</span></h2>
             <span className="text-2xl text-gray-500">
@@ -63,10 +64,9 @@ A senior at York College of Pennsylvania focused on creating imaginative, cuttin
             </span>
           </div>
         </div>
-        <div className={`md:mx-26 lg:mx-52 px-8 pb-8 overflow-hidden transition-all duration-500 ease-in-out ${
-          workExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
-        }`}>
-           <p className="text-xl text-gray-500 mb-2">(Click the items! They have their own pages!)</p>
+        <div className={`md:mx-26 lg:mx-52 px-8 pb-8 overflow-hidden transition-all duration-500 ease-in-out ${workExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
+          }`}>
+          <p className="text-xl text-gray-500 mb-2">(Click the items! They have their own pages!)</p>
           {work.map(workItem => (
             <ProjectSummary
               key={workItem.id}
@@ -82,10 +82,10 @@ A senior at York College of Pennsylvania focused on creating imaginative, cuttin
 
       {/* Projects Section */}
       <div className="bg-gray-100">
-        <div 
+        <div
           className="md:mx-26 lg:mx-52 p-8 cursor-pointer hover:bg-gray-200 transition-colors duration-200"
-          onClick={() => setProjectsExpanded(!projectsExpanded)} 
-        > 
+          onClick={() => setProjectsExpanded(!projectsExpanded)}
+        >
           <div className="flex items-center justify-between">
             <h2 className="text-3xl font-bold text-gray-500">Projects <span className="text-xl text-gray-500">(Click to expand)</span></h2>
             <span className="text-2xl text-gray-500">
@@ -93,12 +93,11 @@ A senior at York College of Pennsylvania focused on creating imaginative, cuttin
             </span>
           </div>
         </div>
-        <div className={`md:mx-26 lg:mx-52 px-8 pb-8 overflow-hidden transition-all duration-500 ease-in-out ${
-          projectsExpanded ? 'max-h-[5000px] opacity-100' : 'max-h-0 opacity-0'
-        }`}>
-        <p className="text-xl text-gray-500 mb-2">(Click the items! They have their own pages!)</p>
+        <div className={`md:mx-26 lg:mx-52 px-8 pb-8 overflow-hidden transition-all duration-500 ease-in-out ${projectsExpanded ? 'max-h-[5000px] opacity-100' : 'max-h-0 opacity-0'
+          }`}>
+          <p className="text-xl text-gray-500 mb-2">(Click the items! They have their own pages!)</p>
           {/* YCP Projects */}
-          <div 
+          <div
             className="mt-4 cursor-pointer hover:bg-gray-200 transition-colors duration-200 rounded p-4"
             onClick={() => setYcpExpanded(!ycpExpanded)}
           >
@@ -112,9 +111,8 @@ A senior at York College of Pennsylvania focused on creating imaginative, cuttin
               </span>
             </div>
           </div>
-          <div className={`pl-4 pb-4 overflow-hidden transition-all duration-500 ease-in-out ${
-            ycpExpanded ? 'max-h-[2500px] opacity-100' : 'max-h-0 opacity-0'
-          }`}>
+          <div className={`pl-4 pb-4 overflow-hidden transition-all duration-500 ease-in-out ${ycpExpanded ? 'max-h-[2500px] opacity-100' : 'max-h-0 opacity-0'
+            }`}>
             {ycpprojects.map(project => (
               <ProjectSummary
                 key={project.id}
@@ -128,7 +126,7 @@ A senior at York College of Pennsylvania focused on creating imaginative, cuttin
           </div>
 
           {/* Personal Projects */}
-          <div 
+          <div
             className="mt-4 cursor-pointer hover:bg-gray-200 transition-colors duration-200 rounded p-4"
             onClick={() => setPersonalExpanded(!personalExpanded)}
           >
@@ -142,9 +140,8 @@ A senior at York College of Pennsylvania focused on creating imaginative, cuttin
               </span>
             </div>
           </div>
-          <div className={`pl-4 pb-4 overflow-hidden transition-all duration-500 ease-in-out ${
-            personalExpanded ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'
-          }`}>
+          <div className={`pl-4 pb-4 overflow-hidden transition-all duration-500 ease-in-out ${personalExpanded ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'
+            }`}>
             {personalprojects.map(project => (
               <ProjectSummary
                 key={project.id}
@@ -158,7 +155,7 @@ A senior at York College of Pennsylvania focused on creating imaginative, cuttin
           </div>
 
           {/* Godot Game Jams */}
-          <div 
+          <div
             className="mt-4 cursor-pointer hover:bg-gray-200 transition-colors duration-200 rounded p-4"
             onClick={() => setGodotExpanded(!godotExpanded)}
           >
@@ -175,9 +172,8 @@ A senior at York College of Pennsylvania focused on creating imaginative, cuttin
               </span>
             </div>
           </div>
-          <div className={`pl-4 pb-4 overflow-hidden transition-all duration-500 ease-in-out ${
-            godotExpanded ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'
-          }`}>
+          <div className={`pl-4 pb-4 overflow-hidden transition-all duration-500 ease-in-out ${godotExpanded ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0'
+            }`}>
             {projects.map(project => (
               <ProjectSummary
                 key={project.id}
@@ -191,7 +187,7 @@ A senior at York College of Pennsylvania focused on creating imaginative, cuttin
           </div>
         </div>
       </div>
-      
+
       <div className="bg-gray-400 pt-10 sm:pt-20 p-20 sm:p-20 font-bold text-white">
         <h1 className="text-center text-5xl">Get in Touch</h1><br></br>
         <div className="flex sm:py-3 flex-col space-y-4 md:space-y-0 lg:space-y-0 md:flex-row lg:flex-row justify-between md:justify-center md:space-x-5  lg:space-x-20 lg:justify-center text-white  text-3xl ">
@@ -203,11 +199,11 @@ A senior at York College of Pennsylvania focused on creating imaginative, cuttin
         <div className="flex flex-col flex-grow justify-center bg-gray-400 text-white pt-10">
           <ul >
             <li className="text-center text-2xl pb-4">443-862-7644 </li>
-            <li className="text-center text-2xl pb-4 "><a className="transition hover:text-blue-600 duration-400"href= "mailto: brandon790523@gmail.com">brandon790523@gmail.com</a></li>
-          </ul>  
+            <li className="text-center text-2xl pb-4 "><a className="transition hover:text-blue-600 duration-400" href="mailto: brandon790523@gmail.com">brandon790523@gmail.com</a></li>
+          </ul>
         </div>
       </div>
     </div>
-    );
+  );
 }
 export default Home;
